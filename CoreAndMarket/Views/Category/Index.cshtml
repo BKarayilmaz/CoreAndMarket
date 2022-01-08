@@ -1,0 +1,38 @@
+﻿@using X.PagedList;
+@using X.PagedList.Mvc.Core;
+
+
+
+@model IPagedList<CoreAndMarket.Data.Models.Category>
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Category List</h1>
+<br />
+<br />
+<table class="table table-bordered">
+    <tr>
+        <th>ID</th>
+        <th>Category Name</th>
+        <th>Delete</th>
+        <th>Update</th>
+    </tr>
+    @foreach (var x in Model)
+    {
+        if (x.IsDeleted == false)
+        {
+            <tr>
+                <td>@x.CategoryID</td>
+                <td>@x.CategoryName</td>
+                <td><a href="/Category/DeleteCategory/@x.CategoryID" class="btn btn-danger">Delete</a></td>
+                <td><a href="/Category/GetCategory/@x.CategoryID" class="btn btn-success">Update</a></td>
+            </tr>
+        }
+    }
+
+</table>
+@Html.PagedListPager((IPagedList)Model, page => Url.Action("Index", new { page }))
+<a href="/Category/AddCategory/" class="btn btn-primary">New Category</a>
+

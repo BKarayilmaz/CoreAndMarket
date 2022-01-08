@@ -1,4 +1,5 @@
 ﻿using CoreAndMarket.Data.Models;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -12,6 +13,10 @@ namespace CoreAndMarket.Repositories
         public List<T> ListT()
         {
             return c.Set<T>().ToList();
+        }
+        public List<T> ListT(string p)
+        {
+            return c.Set<T>().Include(p).ToList();
         }
         public void AddT(T t)
         {
@@ -28,10 +33,11 @@ namespace CoreAndMarket.Repositories
             c.Set<T>().Update(t);
             c.SaveChanges();
         }
-        public void GetT(int id)
+        public T GetT(int id)
         {
-            c.Set<T>().Find(id);
-            c.SaveChanges();
+           return c.Set<T>().Find(id);
+           
         }
+        
     }
 }

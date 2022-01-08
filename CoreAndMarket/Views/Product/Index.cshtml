@@ -1,0 +1,45 @@
+﻿@using X.PagedList;
+@using X.PagedList.Mvc.Core;
+
+
+@model IPagedList<CoreAndMarket.Data.Models.Product>
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Product List</h1>
+<br />
+<br />
+<table class="table table-bordered">
+    <tr>
+        <th>ID</th>
+        <th>Food Name</th>
+        <th>Price</th>
+        <th>Stock</th>
+        <th>Category Name</th>
+        <th>Delete</th>
+        <th>Update</th>
+        <th>Details</th>
+    </tr>
+    @foreach (var x in Model)
+    {
+        if (x.IsDeleted == false)
+        {
+            <tr>
+                <th>@x.ProductID</th>
+                <td>@x.ProductName</td>
+                <td>@x.Price$ </td>
+                <td>@x.Stock</td>
+                <td>@x.Category.CategoryName</td>
+                <td><a href="/Product/DeleteProduct/@x.ProductID" class="btn btn-danger">Delete</a></td>
+                <td><a href="/Product/GetProduct/@x.ProductID" class="btn btn-success">Update</a></td>
+                <td><a href="#" class="btn btn-info">Details</a></td>
+            </tr>
+        }
+
+    }
+
+</table>
+@Html.PagedListPager((IPagedList)Model,page=>Url.Action("Index",new { page }))
+<a href="/Product/AddProduct/" class="btn btn-primary">New Product</a>
