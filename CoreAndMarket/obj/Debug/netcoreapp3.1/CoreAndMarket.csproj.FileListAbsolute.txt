@@ -156,3 +156,5 @@ C:\Users\Bilgisayar\source\repos\CoreAndMarket\CoreAndMarket\bin\Debug\netcoreap
 C:\Users\Bilgisayar\source\repos\CoreAndMarket\CoreAndMarket\bin\Debug\netcoreapp3.1\X.PagedList.Mvc.Core.dll
 C:\Users\Bilgisayar\source\repos\CoreAndMarket\CoreAndMarket\bin\Debug\netcoreapp3.1\X.PagedList.Web.Common.dll
 C:\Users\Bilgisayar\source\repos\CoreAndMarket\CoreAndMarket\obj\Debug\netcoreapp3.1\CoreAndMarket.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Bilgisayar\source\repos\CoreAndMarket\CoreAndMarket\obj\Debug\netcoreapp3.1\Razor\Views\Chart\Index.cshtml.g.cs
+C:\Users\Bilgisayar\source\repos\CoreAndMarket\CoreAndMarket\obj\Debug\netcoreapp3.1\Razor\Views\Login\Index.cshtml.g.cs

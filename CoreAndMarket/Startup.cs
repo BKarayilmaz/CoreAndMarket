@@ -28,6 +28,7 @@ namespace CoreAndMarket
             }
 
             app.UseRouting();
+            app.UseStaticFiles();
 
             //app.UseEndpoints(endpoints =>
             //{
