@@ -1,11 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "pH9y0LaZQZmadSQiOXFqHXRT52pcm0kQ5o7u9ncEnJsE7NuGPtN1vktO/pzTgWy9FhOunnKNPscjd47o+zRjtA==",
+  "dgSpecHash": "5HuZTIWmFF96qH/9Xf4dZHSGn9hRMhFilK8K5MWSnR/+DIHy06tPRIysAQe1jMmCDqPVzP2H1eg9Xute+Fy7qQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\Bilgisayar\\source\\repos\\CoreAndMarket\\CoreAndMarket\\CoreAndMarket.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Bilgisayar\\.nuget\\packages\\microsoft.aspnetcore.antiforgery\\2.2.0\\microsoft.aspnetcore.antiforgery.2.2.0.nupkg.sha512",
+    "C:\\Users\\Bilgisayar\\.nuget\\packages\\microsoft.aspnetcore.authentication\\2.2.0\\microsoft.aspnetcore.authentication.2.2.0.nupkg.sha512",
     "C:\\Users\\Bilgisayar\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",
+    "C:\\Users\\Bilgisayar\\.nuget\\packages\\microsoft.aspnetcore.authentication.cookies\\2.2.0\\microsoft.aspnetcore.authentication.cookies.2.2.0.nupkg.sha512",
     "C:\\Users\\Bilgisayar\\.nuget\\packages\\microsoft.aspnetcore.authentication.core\\2.2.0\\microsoft.aspnetcore.authentication.core.2.2.0.nupkg.sha512",
     "C:\\Users\\Bilgisayar\\.nuget\\packages\\microsoft.aspnetcore.authorization\\2.2.0\\microsoft.aspnetcore.authorization.2.2.0.nupkg.sha512",
     "C:\\Users\\Bilgisayar\\.nuget\\packages\\microsoft.aspnetcore.authorization.policy\\2.2.0\\microsoft.aspnetcore.authorization.policy.2.2.0.nupkg.sha512",

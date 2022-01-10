@@ -158,3 +158,5 @@ C:\Users\Bilgisayar\source\repos\CoreAndMarket\CoreAndMarket\bin\Debug\netcoreap
 C:\Users\Bilgisayar\source\repos\CoreAndMarket\CoreAndMarket\obj\Debug\netcoreapp3.1\CoreAndMarket.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\Bilgisayar\source\repos\CoreAndMarket\CoreAndMarket\obj\Debug\netcoreapp3.1\Razor\Views\Chart\Index.cshtml.g.cs
 C:\Users\Bilgisayar\source\repos\CoreAndMarket\CoreAndMarket\obj\Debug\netcoreapp3.1\Razor\Views\Login\Index.cshtml.g.cs
+C:\Users\Bilgisayar\source\repos\CoreAndMarket\CoreAndMarket\obj\Debug\netcoreapp3.1\Razor\Views\BackupHtml\Index.cshtml.g.cs
+C:\Users\Bilgisayar\source\repos\CoreAndMarket\CoreAndMarket\obj\Debug\netcoreapp3.1\Razor\Views\BackupHtml\Index2.cshtml.g.cs

@@ -6,12 +6,14 @@ using System.Linq;
 using System.Threading.Tasks;
 using CoreAndMarket.Data.Models;
 using X.PagedList;
+using Microsoft.AspNetCore.Authorization;
 
 namespace CoreAndMarket.Controllers
 {
     public class CategoryController : Controller
     {
         CategoryRepository categoryRepository = new CategoryRepository();
+        //[Authorize]
         public IActionResult Index(int page = 1)
         {
             return View(categoryRepository.ListT().ToPagedList(page, 10));
