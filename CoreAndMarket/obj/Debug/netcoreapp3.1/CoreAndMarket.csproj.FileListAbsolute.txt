@@ -160,3 +160,9 @@ C:\Users\Bilgisayar\source\repos\CoreAndMarket\CoreAndMarket\obj\Debug\netcoreap
 C:\Users\Bilgisayar\source\repos\CoreAndMarket\CoreAndMarket\obj\Debug\netcoreapp3.1\Razor\Views\Login\Index.cshtml.g.cs
 C:\Users\Bilgisayar\source\repos\CoreAndMarket\CoreAndMarket\obj\Debug\netcoreapp3.1\Razor\Views\BackupHtml\Index.cshtml.g.cs
 C:\Users\Bilgisayar\source\repos\CoreAndMarket\CoreAndMarket\obj\Debug\netcoreapp3.1\Razor\Views\BackupHtml\Index2.cshtml.g.cs
+C:\Users\Bilgisayar\source\repos\CoreAndMarket\CoreAndMarket\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_SiteLayout.cshtml.g.cs
+C:\Users\Bilgisayar\source\repos\CoreAndMarket\CoreAndMarket\obj\Debug\netcoreapp3.1\Razor\Views\Showcase\Index.cshtml.g.cs
+C:\Users\Bilgisayar\source\repos\CoreAndMarket\CoreAndMarket\obj\Debug\netcoreapp3.1\Razor\Views\Showcase\Components\CategoryGetList\Default.cshtml.g.cs
+C:\Users\Bilgisayar\source\repos\CoreAndMarket\CoreAndMarket\obj\Debug\netcoreapp3.1\Razor\Views\Showcase\Components\ProductGetList\Default.cshtml.g.cs
+C:\Users\Bilgisayar\source\repos\CoreAndMarket\CoreAndMarket\obj\Debug\netcoreapp3.1\Razor\Views\Showcase\CategoryDetails.cshtml.g.cs
+C:\Users\Bilgisayar\source\repos\CoreAndMarket\CoreAndMarket\obj\Debug\netcoreapp3.1\Razor\Views\Showcase\Components\FoodListByCategory\Default.cshtml.g.cs
