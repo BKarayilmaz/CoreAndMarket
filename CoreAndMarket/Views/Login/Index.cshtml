@@ -8,81 +8,43 @@
 <head>
     <title>Login Admin Panel</title>
     <meta charset="UTF-8">
-    <!--<meta name="viewport" content="width=device-width, initial-scale=1">-->
-    <!--===============================================================================================-->
-    <!--<link rel="icon" type="image/png" href="~/Login_v6/images/icons/favicon.ico" />-->
-    <!--===============================================================================================-->
+
     <link rel="stylesheet" type="text/css" href="~/Login_v6/vendor/bootstrap/css/bootstrap.min.css">
-    <!--===============================================================================================-->
-    <!--<link rel="stylesheet" type="text/css" href="~/Login_v6/fonts/font-awesome-4.7.0/css/font-awesome.min.css">-->
-    <!--===============================================================================================-->
-    <!--<link rel="stylesheet" type="text/css" href="~/Login_v6/fonts/iconic/css/material-design-iconic-font.min.css">-->
-    <!--===============================================================================================-->
-    <!--<link rel="stylesheet" type="text/css" href="~/Login_v6/vendor/animate/animate.css">-->
-    <!--===============================================================================================-->
-    <!--<link rel="stylesheet" type="text/css" href="~/Login_v6/vendor/css-hamburgers/hamburgers.min.css">-->
-    <!--===============================================================================================-->
-    <!--<link rel="stylesheet" type="text/css" href="~/Login_v6/vendor/animsition/css/animsition.min.css">-->
-    <!--===============================================================================================-->
-    <!--<link rel="stylesheet" type="text/css" href="~/Login_v6/vendor/select2/select2.min.css">-->
-    <!--===============================================================================================-->
-    <!--<link rel="stylesheet" type="text/css" href="~/Login_v6/vendor/daterangepicker/daterangepicker.css">-->
-    <!--===============================================================================================-->
-    <!--<link rel="stylesheet" type="text/css" href="~/Login_v6/css/util.css">
-    <link rel="stylesheet" type="text/css" href="~/Login_v6/css/main.css">-->
-    <!--===============================================================================================-->
+
+    <style>
+
+
+        .outer {
+            display: table;
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 100%;
+            width: 100%;
+        }
+
+        .middle {
+            display: table-cell;
+            vertical-align: middle;
+        }
+
+        .inner {
+            margin-left: auto;
+            margin-right: auto;
+            width: 400px;
+            /* Whatever width you want */
+        }
+
+    </style>
+
 </head>
 <body style="background-color:grey">
 
-    @*<div class="limiter">
-            <div class="container-login100">
-                <div class="wrap-login100 p-t-85 p-b-20">
-                    <form class="login100-form validate-form"method="post"action="~/Login/Index">
-                        <span class="login100-form-title p-b-70">
-                            Product Marketplace Admin Panel
-                        </span>
-                        <span class="login100-form-avatar">
-                            <img src="~/Login_v6/images/avatar.png" alt="AVATAR" >
-                        </span>
+    @*<div class="container">
+        <div class="vertical-center">
+            <div class="center-box">
 
-                        <div class="wrap-input100 validate-input m-t-85 m-b-35" data-validate="Enter username">
-                            <input class="input100" type="text" name="username">
-                            <span class="focus-input100" data-placeholder="Username" name="UserName"></span>
-                        </div>
-
-                        <div class="wrap-input100 validate-input m-b-50" data-validate="Enter password">
-                            <input class="input100" type="password" name="Password">
-                            <span class="focus-input100" data-placeholder="Password" ></span>
-                        </div>
-
-                        <div class="container-login100-form-btn">
-                            <button class="login100-form-btn">
-                                Login
-                            </button>
-                        </div>
-
-                        <ul class="login-more p-t-190">
-                            <li class="m-b-8">
-                                <a href="#" class="txt2">
-                                    Vitrine Dön
-                                </a>
-                            </li>
-                        </ul>
-                    </form>
-                </div>
-            </div>
-        </div>
-
-
-        <div id="dropDownSelect1"></div>*@
-
-
-    
-
-    <div class="container">
-        <div class="center-box">
-            
-                <h1 class="text-center">Randevu Bilgi Sistemi</h1>
+                <h1 class="text-center">Market Management System</h1>
                 <form method="post" action="~/Login/Index">
                     <div class="mb-3">
                         <div data-validate="Enter username">
@@ -98,29 +60,45 @@
 
                     <button type="submit" class="btn btn-primary">Login</button>
                 </form>
-           
 
+
+            </div>
+        </div>
+    </div>*@
+
+    <div class="outer">
+        <div class="middle">
+            <div class="inner">
+                <div class="container">
+                    <div class="center-box">
+
+                        <h2 class="text-center">Market Management </h2>
+                        <h2 class="text-center">System</h2>
+                        <form method="post" action="~/Login/Index">
+                            <div class="mb-3">
+                                <label>Username</label>
+                                <div data-validate="Enter username">
+                                    <input class="form-control" type="text" name="UserName">
+                                </div>
+                            </div>
+
+                            <div class="mb-3">
+                                <label>Password</label>
+                                <input class="form-control" type="password" name="Password">
+
+                            </div>
+
+                            <button type="submit" class="btn btn-primary">Login</button>
+                        </form>
+
+
+
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
-    
 
-
-    <!--===============================================================================================-->
-    <!--<script src="~/Login_v6/vendor/jquery/jquery-3.2.1.min.js"></script>-->
-    <!--===============================================================================================-->
-    <!--<script src="~/Login_v6/vendor/animsition/js/animsition.min.js"></script>-->
-    <!--===============================================================================================-->
-    <!--<script src="~/Login_v6/vendor/bootstrap/js/popper.js"></script>
-    <script src="~/Login_v6/vendor/bootstrap/js/bootstrap.min.js"></script>-->
-    <!--===============================================================================================-->
-    <!--<script src="~/Login_v6/vendor/select2/select2.min.js"></script>-->
-    <!--===============================================================================================-->
-    <!--<script src="~/Login_v6/vendor/daterangepicker/moment.min.js"></script>
-    <script src="~/Login_v6/vendor/daterangepicker/daterangepicker.js"></script>-->
-    <!--===============================================================================================-->
-    <!--<script src="~/Login_v6/vendor/countdowntime/countdowntime.js"></script>-->
-    <!--===============================================================================================-->
-    <!--<script src="~/Login_v6/js/main.js"></script>-->
 
 </body>
 </html>

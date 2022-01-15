@@ -1,4 +1,4 @@
-﻿@model CoreAndMarket.Data.Models.Product
+﻿@model CoreAndMarket.Data.Models.AddProduct
 @{
     ViewData["Title"] = "AddProduct";
     Layout = "~/Views/Shared/_Layout.cshtml";
@@ -6,8 +6,8 @@
 
 <h1>Product Add Page</h1>
 <br />
-@using (Html.BeginForm("AddProduct", "Product", FormMethod.Post))
-{
+<form class="form-group" action="AddProduct" asp-controller="Product" method="post" enctype="multipart/form-data">
+
     @Html.Label("Product Name")
     @Html.TextBoxFor(x => x.ProductName, new { @class = "form-control" })
     <br />
@@ -17,15 +17,16 @@
     @Html.Label("Price")
     @Html.TextBoxFor(x => x.Price, new { @class = "form-control" })
     <br />
-    @Html.Label("Image URL")
-    @Html.TextBoxFor(x => x.ImageUrl, new { @class = "form-control" })
+    @Html.Label("Choose Image")
+    
+    <input type="file" name="ImageUrl" />
     <br />
     @Html.Label("Category")
-    @Html.DropDownListFor(x => x.CategoryID,(List<SelectListItem>)ViewBag.vls, new { @class = "form-control" })
+    @Html.DropDownListFor(x => x.CategoryID, (List<SelectListItem>)ViewBag.vls, new { @class = "form-control" })
     <br />
     @Html.Label("Description")
     @Html.TextAreaFor(x => x.Description, new { @class = "form-control" })
     <br />
     <button class="btn btn-info">Save</button>
-}
-
+    
+</form>

@@ -1,4 +1,6 @@
 ﻿@model CoreAndMarket.Data.Models.Product
+@*@model CoreAndMarket.Data.Models.AddProduct*@
+
 @{
     ViewData["Title"] = "GetProduct";
     Layout = "~/Views/Shared/_Layout.cshtml";
@@ -32,4 +34,31 @@
     <br />
     <button class="btn btn-info">Update</button>
 }
+
+@*<form class="form-group" action="UpdateProduct" asp-controller="Product" method="post" enctype="multipart/form-data">
+    @Html.Label("Product ID")
+    @Html.TextBoxFor(x => x.ProductID, new { @class = "form-control" })
+    <br />
+    @Html.Label("Product Name")
+    @Html.TextBoxFor(x => x.ProductName, new { @class = "form-control" })
+    <br />
+    @Html.Label("Stock")
+    @Html.TextBoxFor(x => x.Stock, new { @class = "form-control" })
+    <br />
+    @Html.Label("Price")
+    @Html.TextBoxFor(x => x.Price, new { @class = "form-control" })
+    <br />
+    @Html.Label("Choose Image")
+
+    <input type="file" name="ImageUrl" />
+    <br />
+    @Html.Label("Category")
+    @Html.DropDownListFor(x => x.CategoryID, (List<SelectListItem>)ViewBag.vls, new { @class = "form-control" })
+    <br />
+    @Html.Label("Description")
+    @Html.TextAreaFor(x => x.Description, new { @class = "form-control" })
+    <br />
+    <button class="btn btn-info">Save</button>
+
+</form>*@
 
