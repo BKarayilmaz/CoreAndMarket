@@ -1,4 +1,4 @@
-#.Net Core Admin Panel And Market
+# .Net Core Admin Panel And Market
 
 This is a tutorial app for learn basic thing for learn about
 
