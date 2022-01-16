@@ -6,8 +6,11 @@ This is a tutorial app for learn basic thing for learn about
 
 ## Features
 - Crud
-- Google Chart
+- LINQ
 - Authorize
+- Google Chart
+
+
 
 ![Chart_Index](https://user-images.githubusercontent.com/63595909/149637996-17e3b1a4-3657-43f4-8bc0-530282e792ae.png)
 
