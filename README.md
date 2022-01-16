@@ -17,4 +17,4 @@ This is a tutorial app for learn basic thing for learn about
 ![Category](https://user-images.githubusercontent.com/63595909/149637997-fb822e99-b10e-49e2-bc98-0125346799e1.png)
 
 ## Notes
-This code is free to use. 
+This code is free to use. The user interface I use in the project does not belong to me.
