@@ -88,137 +88,138 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
         </div>
         <!-- //header -->
         <!-- banner -->
-        <div class="banner">
-            <div class="w3l_banner_nav_left">
-                <nav class="navbar nav_bottom">
-                    <!-- Brand and toggle get grouped for better mobile display -->
-                    <div class="navbar-header nav_2">
-                        <button type="button" class="navbar-toggle collapsed navbar-toggle1" data-toggle="collapse" data-target="#bs-megadropdown-tabs">
-                            <span class="sr-only">Toggle navigation</span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                        </button>
-                    </div>
-                    <!-- Collect the nav links, forms, and other content for toggling -->
-                    @await Component.InvokeAsync("CategoryGetList")
-                    <!-- /.navbar-collapse -->
-                </nav>
-            </div>
-            <div class="w3l_banner_nav_right">
-                <section class="slider">
-                    <div class="flexslider">
-                        <ul class="slides">
-                            <li>
-                                <div class="w3l_banner_nav_right_banner">
-                                    <h3>Make your <span>food</span> with Spicy.</h3>
-                                    <div class="more">
-                                        <a href="products.html" class="button--saqui button--round-l button--text-thick" data-text="Shop now">Shop now</a>
+        <div class="container">
+            <div class="banner">
+                <div class="w3l_banner_nav_left">
+                    <nav class="navbar nav_bottom">
+                        <!-- Brand and toggle get grouped for better mobile display -->
+                        <div class="navbar-header nav_2">
+                            <button type="button" class="navbar-toggle collapsed navbar-toggle1" data-toggle="collapse" data-target="#bs-megadropdown-tabs">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                        </div>
+                        <!-- Collect the nav links, forms, and other content for toggling -->
+                        @await Component.InvokeAsync("CategoryGetList")
+                        <!-- /.navbar-collapse -->
+                    </nav>
+                </div>
+                <div class="w3l_banner_nav_right">
+                    <section class="slider">
+                        <div class="flexslider">
+                            <ul class="slides">
+                                <li>
+                                    <div class="w3l_banner_nav_right_banner">
+                                        <h3>Make your <span>food</span> with Spicy.</h3>
+                                        <div class="more">
+                                            
+                                        </div>
                                     </div>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="w3l_banner_nav_right_banner1">
-                                    <h3>Make your <span>food</span> with Spicy.</h3>
-                                    <div class="more">
-                                        <a href="products.html" class="button--saqui button--round-l button--text-thick" data-text="Shop now">Shop now</a>
+                                </li>
+                                <li>
+                                    <div class="w3l_banner_nav_right_banner1">
+                                        <h3>Make your <span>food</span> with Spicy.</h3>
+                                        <div class="more">
+                                            
+                                        </div>
                                     </div>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="w3l_banner_nav_right_banner2">
-                                    <h3>upto <i>50%</i> off.</h3>
-                                    <div class="more">
-                                        <a href="products.html" class="button--saqui button--round-l button--text-thick" data-text="Shop now">Shop now</a>
+                                </li>
+                                <li>
+                                    <div class="w3l_banner_nav_right_banner2">
+                                        <h3>upto <i>50%</i> off.</h3>
+                                        <div class="more">
+                                            
+                                        </div>
                                     </div>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
-                </section>
-                <!-- flexSlider -->
-                <link rel="stylesheet" href="~/web/css/flexslider.css" type="text/css" media="screen" property="" />
-                <script defer src="~/web/js/jquery.flexslider.js"></script>
-                <script type="text/javascript">
-                    $(window).load(function () {
-                        $('.flexslider').flexslider({
-                            animation: "slide",
-                            start: function (slider) {
-                                $('body').removeClass('loading');
-                            }
+                                </li>
+                            </ul>
+                        </div>
+                    </section>
+
+                    <!-- flexSlider -->
+                    <link rel="stylesheet" href="~/web/css/flexslider.css" type="text/css" media="screen" property="" />
+                    <script defer src="~/web/js/jquery.flexslider.js"></script>
+                    <script type="text/javascript">
+                        $(window).load(function () {
+                            $('.flexslider').flexslider({
+                                animation: "slide",
+                                start: function (slider) {
+                                    $('body').removeClass('loading');
+                                }
+                            });
                         });
-                    });
-                </script>
-                <!-- //flexSlider -->
-            </div>
-            <div class="clearfix"></div>
-        </div>
-        <!-- banner -->
-      
-        <!-- top-brands -->
-        <div class="top-brands">
-            <div class="container">
-                
-                @await Component.InvokeAsync("ProductGetList")
-                @RenderBody()
+                    </script>
+                    <!-- //flexSlider -->
+                </div>
+                <div class="clearfix"></div>
             </div>
         </div>
-        <!-- //top-brands -->
-       
-    <!-- Bootstrap Core JavaScript -->
-    <script src="~/web/js/bootstrap.min.js"></script>
-    <script>
-        $(document).ready(function () {
-            $(".dropdown").hover(
-                function () {
-                    $('.dropdown-menu', this).stop(true, true).slideDown("fast");
-                    $(this).toggleClass('open');
-                },
-                function () {
-                    $('.dropdown-menu', this).stop(true, true).slideUp("fast");
-                    $(this).toggleClass('open');
-                }
-            );
-        });
-    </script>
-    <!-- here stars scrolling icon -->
-    <script type="text/javascript">
-        $(document).ready(function () {
-            /*
-                var defaults = {
-                containerID: 'toTop', // fading element id
-                containerHoverID: 'toTopHover', // fading element hover id
-                scrollSpeed: 1200,
-                easingType: 'linear'
-                };
-            */
+            <!-- banner -->
+            <!-- top-brands -->
+            <div class="top-brands">
+                <div class="container">
 
-            $().UItoTop({ easingType: 'easeOutQuart' });
+                    @await Component.InvokeAsync("ProductGetList")
+                    @RenderBody()
+                </div>
+            </div>
+            <!-- //top-brands -->
+            <!-- Bootstrap Core JavaScript -->
+            <script src="~/web/js/bootstrap.min.js"></script>
+            <script>
+                $(document).ready(function () {
+                    $(".dropdown").hover(
+                        function () {
+                            $('.dropdown-menu', this).stop(true, true).slideDown("fast");
+                            $(this).toggleClass('open');
+                        },
+                        function () {
+                            $('.dropdown-menu', this).stop(true, true).slideUp("fast");
+                            $(this).toggleClass('open');
+                        }
+                    );
+                });
+            </script>
+            <!-- here stars scrolling icon -->
+            <script type="text/javascript">
+                $(document).ready(function () {
+                    /*
+                        var defaults = {
+                        containerID: 'toTop', // fading element id
+                        containerHoverID: 'toTopHover', // fading element hover id
+                        scrollSpeed: 1200,
+                        easingType: 'linear'
+                        };
+                    */
 
-        });
-    </script>
-    <!-- //here ends scrolling icon -->
-    <script src="~/web/js/minicart.js"></script>
-    <script>
-        paypal.minicart.render();
+                    $().UItoTop({ easingType: 'easeOutQuart' });
 
-        paypal.minicart.cart.on('checkout', function (evt) {
-            var items = this.items(),
-                len = items.length,
-                total = 0,
-                i;
+                });
+            </script>
+            <!-- //here ends scrolling icon -->
+            <script src="~/web/js/minicart.js"></script>
+            <script>
+                paypal.minicart.render();
 
-            // Count the number of each item in the cart
-            for (i = 0; i < len; i++) {
-                total += items[i].get('quantity');
-            }
+                paypal.minicart.cart.on('checkout', function (evt) {
+                    var items = this.items(),
+                        len = items.length,
+                        total = 0,
+                        i;
 
-            if (total < 3) {
-                alert('The minimum order quantity is 3. Please add more to your shopping cart before checking out');
-                evt.preventDefault();
-            }
-        });
+                    // Count the number of each item in the cart
+                    for (i = 0; i < len; i++) {
+                        total += items[i].get('quantity');
+                    }
 
-    </script>
-</body>
+                    if (total < 3) {
+                        alert('The minimum order quantity is 3. Please add more to your shopping cart before checking out');
+                        evt.preventDefault();
+                    }
+                });
+
+            </script>
+        </body>
 </html>

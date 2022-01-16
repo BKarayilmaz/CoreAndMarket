@@ -90,19 +90,19 @@ html[xmlns] .slides {display: block;}
 }
 .flex-control-paging li a {
 	width: 10px;
-    height: 10px;
-    display: block;
-    background: none;
-    cursor: pointer;
-    text-indent: -9999px;
-    border:2px solid #84C639;
-	border-radius:20px;
+	height: 10px;
+	display: block;
+	background: none;
+	cursor: pointer;
+	text-indent: -9999px;
+	border: 2px solid #e64c3c;
+	border-radius: 20px;
 }
-.flex-control-paging li a.flex-active { 
-	background: #84C639;
-    cursor: default;
-    border: 2px solid #84C639;
-}
+	.flex-control-paging li a.flex-active {
+		background: #e64c3c;
+		cursor: default;
+		border: 2px solid #e64c3c;
+	}
 .flex-control-thumbs {margin: 5px 0 0; position: static; overflow: hidden;}
 .flex-control-thumbs li {width: 25%; float: left; margin: 0;}
 .flex-control-thumbs img {width: 100%; display: block; opacity: .7; cursor: pointer;}

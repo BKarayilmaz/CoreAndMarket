@@ -59,7 +59,7 @@ namespace CoreAndMarket
                 //endpoits.MapDefaultControllerRoute();
                 endpoits.MapControllerRoute(
                     name: "default",
-                    pattern: "{controller=Category}/{action=Index}/{id?}");
+                    pattern: "{controller=Showcase}/{action=Index}/{id?}");
             });
 
         }

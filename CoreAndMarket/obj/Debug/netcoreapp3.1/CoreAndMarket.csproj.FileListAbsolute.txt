@@ -166,3 +166,4 @@ C:\Users\Bilgisayar\source\repos\CoreAndMarket\CoreAndMarket\obj\Debug\netcoreap
 C:\Users\Bilgisayar\source\repos\CoreAndMarket\CoreAndMarket\obj\Debug\netcoreapp3.1\Razor\Views\Showcase\Components\ProductGetList\Default.cshtml.g.cs
 C:\Users\Bilgisayar\source\repos\CoreAndMarket\CoreAndMarket\obj\Debug\netcoreapp3.1\Razor\Views\Showcase\CategoryDetails.cshtml.g.cs
 C:\Users\Bilgisayar\source\repos\CoreAndMarket\CoreAndMarket\obj\Debug\netcoreapp3.1\Razor\Views\Showcase\Components\FoodListByCategory\Default.cshtml.g.cs
+C:\Users\Bilgisayar\source\repos\CoreAndMarket\CoreAndMarket\obj\Debug\netcoreapp3.1\Razor\Views\Chart\Statistics.cshtml.g.cs
