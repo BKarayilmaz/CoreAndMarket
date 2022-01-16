@@ -2,7 +2,7 @@
 
 This is a tutorial app for learn basic thing for learn about
 
-![Showcase_CategoryDetails](https://user-images.githubusercontent.com/63595909/149637908-2f143723-5c14-4f85-b002-9b7010a05597.png)
+![Showcase_CategoryDetails_](https://user-images.githubusercontent.com/63595909/149658699-f5ca9301-fecc-4ac4-9680-d13e67be09b4.png)
 
 ## Features
 - Crud
